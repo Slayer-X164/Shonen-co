@@ -117,6 +117,20 @@
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
 }
+#links{
+    display: none;
+}
+#icons .menu{
+    display: flex;
+}
+#icons{
+    width: 80px;
+}
+#icons ion-icon{
+    display: flex;
+    font-size: 5vw;
+    margin-left: 2vw;
 
+ }
 
 }
