@@ -66,4 +66,21 @@
         scale: 1.1;
         margin: 2vw 0;
     }
+
+    .elem .details{
+        height: 40px;
+        width: 55%;
+        background-color: rgb(255, 247, 223);
+        position: absolute;
+        z-index: 9;
+        text-align: center;
+        font-weight: 400;
+        font-size: 0.8rem;
+        padding: 10px 0;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
