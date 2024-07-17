@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*::selection{
+    color: #ffffff;
+    background-color: #000000;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page_1 {
+  min-height: 100vh;
+  /* background-color: aqua; */
+  position: relative;
+  width: 100%;
+  padding: 0 1vw;
+  padding-top: 15vh;
+}
+#page_1 h1{
+    /* letter-spacing: -2px; */
+    line-height: 18vh;
+    font-size: 8vw;
+    font-weight: bolder;
+    /* font-stretch:condensed; */
+    text-transform: uppercase;
+}
+#vid_container{
+    padding: 0 1rem;
+    height: 70vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: 1vw;
+    position: relative;
+}
+#vid_container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#vid_container #play{
+    padding: 3.2vw 2vw ;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 1.5vw;
+    position: fixed;
+    font-weight: bolder;
+    border-radius: 50%;
+    opacity: 0;
+    scale: 0;
+    
+}
+/* page 2 */
+#page_2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 2vw;
+}
+#page_2 .elem{
+    height: 100%;
+    width: 31%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
