@@ -1,86 +1,122 @@
-@media (max-width:600px){
-    body{
-        /* background-color: red; */
-    }
-    #page_1 {
-        min-height:100vh;
-        width: 100%;
-        padding: 0 1vw;
-        padding-top: 30vh;
-      }
-    #page_1 h1{
-        letter-spacing: -2px;
-        line-height: 10vh;
-        font-size: 12vw;
-        padding: 0 3.2vw;
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-    #vid_container{
-       
-        height: 40vh;
-       position: relative;
-       width: 100%;
-        /* background-color: aquamarine; */
-        margin: 3vw 0;
-       
-    }
-    #vid_container #play{
-        padding: 6vw 4vw ;
-        background-color: #ffffff;
-        color: #000000;
-        font-size: 3vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        font-weight: bolder;
-        border-radius: 50%;
-        opacity: 1;
-        scale: 1;
-        transform: translate(-50%,-50%);
-        
-    }
-    #page_2{
-        height: 100%;
-        width: 100%;
-        /* background-color: aqua; */
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: space-between;
-        padding: 3vw 3vw;
-        /* background-color: red; */
-    }
-    #page_2 .elem{
-        height: 100%;
-        width: 70vw;
-        margin: 2vw 0;
-        
-        /* background-color: red; */
-        overflow: hidden;
-    }
-    .elem img{
-        height: 80%;
-        width: 100%;
-        object-fit: contain;
-        scale: 1.1;
-        margin: 2vw 0;
-    }
+@media (max-width: 600px) {
+  body {
+    /* background-color: red; */
+  }
+  #page_1 {
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 1vw;
+    padding-top: 30vh;
+  }
+  #page_1 h1 {
+    letter-spacing: -2px;
+    line-height: 10vh;
+    font-size: 12vw;
+    padding: 0 3.2vw;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  #vid_container {
+    height: 40vh;
+    position: relative;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin: 3vw 0;
+  }
+  #vid_container #play {
+    padding: 6vw 4vw;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: bolder;
+    border-radius: 50%;
+    opacity: 1;
+    scale: 1;
+    transform: translate(-50%, -50%);
+  }
+  #page_2 {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    /* background-color: red; */
+  }
+  #page_2 .elem {
+    height: 100%;
+    width: 70vw;
+    margin: 2vw 0;
 
-    .elem .details{
-        height: 40px;
-        width: 55%;
-        background-color: rgb(255, 247, 223);
-        position: absolute;
-        z-index: 9;
-        text-align: center;
-        font-weight: 400;
-        font-size: 0.8rem;
-        padding: 10px 0;
-        border-radius: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
+    /* background-color: red; */
+    overflow: hidden;
+  }
+  .elem img {
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+    scale: 1.1;
+    margin: 2vw 0;
+  }
+
+  .elem .details {
+    height: 40px;
+    width: 55%;
+    background-color: rgb(255, 247, 223);
+    position: absolute;
+    z-index: 9;
+    text-align: center;
+    font-weight: 400;
+    font-size: 0.8rem;
+    padding: 10px 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* page 3 */
+  #page_3 {
+    min-height: 150vh;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(240, 197, 140); */
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .child {
+    height: 70vh;
+    width: 35vw;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .child img {
+    height: 70%;
+  }
+  .child h3{
+    width: 200px;
+    font-size: 4vw;
+    font-weight: 400;
+    text-align: center;
+    padding: 1vw 0;
+}
+.child h5{
+    font-size: 4vw;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 }

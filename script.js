@@ -44,3 +44,10 @@ function loadingTextAnimation() {
   });
 }
 loadingTextAnimation();
+
+// document.addEventListener("mousemove", (details)=>{
+//     gsap.to("#cursor",{
+//         left: details.x,
+//         top: details.y
+//     })
+// })
