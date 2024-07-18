@@ -1,7 +1,6 @@
-
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('#main'),
-    smooth: true
+  el: document.querySelector("#main"),
+  smooth: true,
 }); // locomotive
 
 function videoAnimation() {
@@ -21,8 +20,8 @@ function videoAnimation() {
   });
   vid_conatiner.addEventListener("mousemove", (details) => {
     gsap.to(playBtn, {
-      left: details.x-[100],
-      top: details.y-[100]
+      left: details.x - [100],
+      top: details.y - [100],
     });
   });
 }
@@ -51,3 +50,21 @@ loadingTextAnimation();
 //         top: details.y
 //     })
 // })
+
+function sendEmail() {
+  Email.send({
+    secureToken: "e5fd0a84-76eb-4b25-a44e-0047f47ffee4",
+    To: "siddfy5132cs@gmail.com",
+    From: document.getElementById("email").value,
+    Subject: "Enquiry",
+    Body:
+      "Name: " +
+      document.getElementById("name").value +
+      "<br> Email: " +
+      document.getElementById("email").value +
+      "<br> Phone number: " +
+      document.getElementById("phone").value +
+      "<br> Message: " +
+      document.getElementById("message").value,
+  }).then((message) => alert("Message Sent Successfully"));
+}
